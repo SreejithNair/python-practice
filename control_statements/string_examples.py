@@ -1,0 +1,1 @@
+#This file is dedicated to the string samples
