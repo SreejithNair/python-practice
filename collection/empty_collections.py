@@ -1,4 +1,5 @@
 #To create an empty collection of T where type will be inferred 
+
 empty_a = () #empty tuple
 print(type(empty_a))
 
