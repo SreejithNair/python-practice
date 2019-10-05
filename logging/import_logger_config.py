@@ -1,6 +1,6 @@
 import default_file_logging
 #When you run this you get something below since the module name
-#is automatically picked from the running context
+#is automatically picked from the running context context
 
 '''
 2019-10-04 22:30:22,065:	default_file_logging:	DEBUG:	This is a debug message
