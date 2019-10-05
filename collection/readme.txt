@@ -147,3 +147,10 @@ If keyword arguments are given, the keyword arguments and their values
 are added to the dictionary created from the positional argument. 
 If a key being added is already present, the value from the keyword
 argument replaces the value from the positional argument.
+
+list(d)
+Return a list of all the keys used in the dictionary d.
+len(d)
+Return the number of items in the dictionary d.
+d[key]
+Return the item of d with key key. Raises a KeyError if key is not in the map.
