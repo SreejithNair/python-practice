@@ -1,6 +1,6 @@
 #Simple class definition
 
-class shape:
+class Shape:
     
     def __init__(self):
         pass
@@ -10,6 +10,6 @@ class shape:
         self.height=height
         self.width=width
 
-ins = shape()
+ins = Shape()
 ins.set_coordinates(10,20)
-print(ins)
+
