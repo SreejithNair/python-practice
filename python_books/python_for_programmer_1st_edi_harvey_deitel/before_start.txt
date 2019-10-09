@@ -1,0 +1,122 @@
+Before You Begin
+This section contains information you should review before using this book. We’ll post updates at: http://www.deitel.com.
+
+FONT AND NAMING CONVENTIONS
+We show Python code and commands and file and folder names in a sans-serif font, and on-screen components, such as menu names, in a bold sans-serif font. We use italics for emphasis and bold occasionally for strong emphasis.
+
+GETTING THE CODE EXAMPLES
+You can download the examples.zip file containing the book’s examples from our Python for Programmers web page at:
+http://www.deitel.com
+
+Click the Download Examples link to save the file to your local computer. Most web browsers place the file in your user account’s Downloads folder. When the download completes, locate it on your system, and extract its examples folder into your user account’s Documents folder:
+
+Windows: C:\Users\YourAccount\Documents\examples
+
+macOS or Linux: ~/Documents/examples
+
+Most operating systems have a built-in extraction tool. You also may use an archive tool such as 7-Zip (www.7-zip.org) or WinZip (www.winzip.com).
+
+STRUCTURE OF THE EXAMPLES FOLDER
+You’ll execute three kinds of examples in this book:
+
+Individual code snippets in the IPython interactive environment.
+
+Complete applications, which are known as scripts.
+
+Jupyter Notebooks—a convenient interactive, web-browser-based environment in which you can write and execute code and intermix the code with text, images and video.
+
+We demonstrate each in Section 1.5’s test drives.
+
+The examples folder contains one subfolder per chapter. These are named ch##, where ## is the two-digit chapter number 01 to 16—for example, ch01. Except for Chapters 13, 15 and 16, each chapter’s folder contains the following items:
+
+snippets_ipynb—A folder containing the chapter’s Jupyter Notebook files.
+
+snippets_py—A folder containing Python source code files in which each code snippet we present is separated from the next by a blank line. You can copy and paste these snippets into IPython or into new Jupyter Notebooks that you create.
+
+Script files and their supporting files.
+
+Chapter 13 contains one application. Chapters 15 and 16 explain where to find the files you need in the ch15 and ch16 folders, respectively.
+
+
+INSTALLING ANACONDA
+We use the easy-to-install Anaconda Python distribution with this book. It comes with almost everything you’ll need to work with our examples, including:
+
+the IPython interpreter,
+
+most of the Python and data science libraries we use,
+
+a local Jupyter Notebooks server so you can load and execute our notebooks, and
+
+various other software packages, such as the Spyder Integrated Development Environment (IDE)—we use only IPython and Jupyter Notebooks in this book.
+
+Download the Python 3.x Anaconda installer for Windows, macOS or Linux from:
+
+https://www.anaconda.com/download/
+
+When the download completes, run the installer and follow the on-screen instructions. To ensure that Anaconda runs correctly, do not move its files after you install it.
+
+
+UPDATING ANACONDA
+Next, ensure that Anaconda is up to date. Open a command-line window on your system as follows:
+
+On macOS, open a Terminal from the Applications folder’s Utilities subfolder.
+
+On Windows, open the Anaconda Prompt from the start menu. When doing this to update Anaconda (as you’ll do here) or to install new packages (discussed momentarily), execute the Anaconda Prompt as an administrator by right-clicking, then selecting More > Run as administrator. (If you cannot find the Anaconda Prompt in the start menu, simply search for it in the Type here to search field at the bottom of your screen.)
+
+On Linux, open your system’s Terminal or shell (this varies by Linux distribution).
+
+In your system’s command-line window, execute the following commands to update Anaconda’s installed packages to their latest versions:
+
+conda update conda
+
+conda update --all
+
+
+PACKAGE MANAGERS
+The conda command used above invokes the conda package manager—one of the two key Python package managers you’ll use in this book. The other is pip. Packages contain the files required to install a given Python library or tool. Throughout the book, you’ll use conda to install additional packages, unless those packages are not available through conda, in which case you’ll use pip. Some people prefer to use pip exclusively as it currently supports more packages. If you ever have trouble installing a package with conda, try pip instead.
+
+INSTALLING THE PROSPECTOR STATIC CODE ANALYSIS TOOL
+You may want to analyze you Python code using the Prospector analysis tool, which checks your code for common errors and helps you improve it. To install Prospector and the Python libraries it uses, run the following command in the command-line window:
+
+pip install prospector
+
+
+INSTALLING JUPYTER-MATPLOTLIB
+We implement several animations using a visualization library called Matplotlib. To use them in Jupyter Notebooks, you must install a tool called ipympl. In the Terminal, Anaconda Command Prompt or shell you opened previously, execute the following commands1 one at a time:
+
+1https://github.com/matplotlib/jupyter-matplotlib.
+
+conda install -c conda-forge ipympl
+conda install nodejs
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-matplotlib
+INSTALLING THE OTHER PACKAGES
+Anaconda comes with approximately 300 popular Python and data science packages for you, such as NumPy, Matplotlib, pandas, Regex, BeautifulSoup, requests, Bokeh, SciPy, SciKit-Learn, Seaborn, Spacy, sqlite, statsmodels and many more. The number of additional packages you’ll need to install throughout the book will be small and we’ll provide installation instructions as necessary. As you discover new packages, their documentation will explain how to install them.
+
+
+GET A TWITTER DEVELOPER ACCOUNT
+If you intend to use our “Data Mining Twitter” chapter and any Twitter-based examples in subsequent chapters, apply for a Twitter developer account. Twitter now requires registration for access to their APIs. To apply, fill out and submit the application at
+
+https://developer.twitter.com/en/apply-for-access
+
+Twitter reviews every application. At the time of this writing, personal developer accounts were being approved immediately and company-account applications were taking from several days to several weeks. Approval is not guaranteed.
+
+
+GETTING YOUR QUESTIONS ANSWERED
+Online forums enable you to interact with other Python programmers and get your Python questions answered. Popular Python and general programming forums include:
+
+python-forum.io
+
+StackOverflow.com
+
+https://www.dreamincode.net/forums/forum/29-python/
+
+Also, many vendors provide forums for their tools and libraries. Most of the libraries you’ll use in this book are managed and maintained at github.com. Some library maintainers provide support through the Issues tab on a given library’s GitHub page. If you cannot find an answer to your questions online, please see our web page for the book at
+
+http://www.deitel.com2
+
+2Our website is undergoing a major upgrade. If you do not find something you need, please write to us directly at deitel@deitel.com.
+
+You’re now ready to begin reading Python for Programmers. We hope you enjoy the book!
+
+
