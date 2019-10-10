@@ -16,3 +16,20 @@ for a in new_list_four[1]:
     print(a)
 
 print(new_list_four[1][2])
+
+#delete items from list
+print('delete items from list')
+items_to_delete = list(range(10,1,-1))
+del items_to_delete[2]
+print(items_to_delete)
+
+#Pop remove items from list permanantely but return the removed item
+first_item = items_to_delete.pop(0)
+print(first_item)
+print(items_to_delete)
+items_to_delete.sort()
+print(items_to_delete)
+items_to_delete.reverse()
+print(items_to_delete)
+items_to_delete.reverse()
+print(items_to_delete)
