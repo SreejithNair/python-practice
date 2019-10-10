@@ -2,3 +2,247 @@ Python study=>
 https://runestone.academy/runestone/books/
 https://www.geeksforgeeks.org/python-programming-language/
 
+Data science use cases:
+
+Data-science use cases
+
+ 
+
+ 
+
+anomaly detection
+
+assisting people with disabilities
+
+auto-insurance risk prediction
+
+automated closed captioning
+
+automated image captions
+
+automated investing
+
+autonomous ships
+
+brain mapping
+
+caller identification
+
+cancer diagnosis/treatment
+
+carbon emissions reduction
+
+classifying handwriting
+
+computer vision
+
+credit scoring
+
+crime: predicting locations
+
+crime: predicting recidivism
+
+crime: predictive policing
+
+crime: prevention
+
+CRISPR gene editing
+
+crop-yield improvement
+
+customer churn
+
+customer experience
+
+customer retention
+
+customer satisfaction
+
+customer service
+
+customer service agents
+
+customized diets
+
+cybersecurity
+
+data mining
+
+data visualization
+
+detecting new viruses
+
+diagnosing breast cancer
+
+diagnosing heart disease
+
+diagnostic medicine
+
+disaster-victim identification
+
+drones
+
+dynamic driving routes
+
+dynamic pricing
+
+electronic health records
+
+emotion detection
+
+energy-consumption reduction
+
+
+
+facial recognition
+
+fitness tracking
+
+fraud detection
+
+game playing
+
+genomics and healthcare
+
+Geographic Information Systems (GIS)
+
+GPS Systems
+
+health outcome improvement
+
+hospital readmission reduction
+
+human genome sequencing
+
+identity-theft prevention
+
+immunotherapy
+
+insurance pricing
+
+intelligent assistants
+
+Internet of Things (IoT) and medical device monitoring
+
+Internet of Things and weather forecasting
+
+inventory control
+
+language translation
+
+location-based services
+
+loyalty programs
+
+malware detection
+
+mapping
+
+marketing
+
+marketing analytics
+
+music generation
+
+natural-language translation
+
+new pharmaceuticals
+
+opioid abuse prevention
+
+personal assistants
+
+personalized medicine
+
+personalized shopping
+
+phishing elimination
+
+pollution reduction
+
+precision medicine
+
+predicting cancer survival
+
+predicting disease outbreaks
+
+predicting health outcomes
+
+predicting student enrollments
+
+predicting weather-sensitive product sales
+
+predictive analytics
+
+preventative medicine
+
+preventing disease outbreaks
+
+reading sign language
+
+real-estate valuation
+
+recommendation systems
+
+reducing overbooking
+
+ride sharing
+
+risk minimization
+
+robo financial advisors
+
+security enhancements
+
+self-driving cars
+
+sentiment analysis
+
+sharing economy
+
+similarity detection
+
+smart cities
+
+smart homes
+
+smart meters
+
+smart thermostats
+
+smart traffic control
+
+social analytics
+
+social graph analysis
+
+spam detection
+
+spatial data analysis
+
+sports recruiting and coaching
+
+stock market forecasting
+
+student performance assessment
+
+summarizing text
+
+telemedicine
+
+terrorist attack prevention
+
+theft prevention
+
+travel recommendations
+
+trend spotting
+
+visual product search
+
+voice recognition
+
+voice search
+
+weather forecasting
+
