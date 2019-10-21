@@ -24,7 +24,7 @@ class Person(object):
     def get_new_name(self,new_name):
         ''' This method print the passed in name
         :param new_name: pass new name of the person
-        :typr new_name: str
+        :type new_name: str
         '''
         self.name = new_name
         print(self.name)
