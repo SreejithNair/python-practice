@@ -1,1 +1,0 @@
-Driver={SQL Server};Server=nor-grputils-01;Database=TheLoansEngineCRM;Trusted_Connection=yes;

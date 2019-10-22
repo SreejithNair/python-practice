@@ -3,6 +3,7 @@ https://runestone.academy/runestone/books/
 https://www.geeksforgeeks.org/python-programming-language/
 https://www.python-course.eu/python3_course.php
 https://sopython.com/wiki/What_tutorial_should_I_read%3F
+https://realpython.com/learning-paths/
 
 Data science use cases:
 

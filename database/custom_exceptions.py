@@ -3,13 +3,16 @@ import datetime as dt
 
 class CustomException(Exception):
     
-    message = f'This is a custom message raised at {dt.datetime}. '
+    message:str = f'This is a custom message raised at '
 
     def __init__(self, message):
         self.message += message
     
     def __str__(self):
-        return self.message
+        return self.message + self.get_date_time()
+    
+    def get_date_time(self):
+        return dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 
 class ValueNone(CustomException):
