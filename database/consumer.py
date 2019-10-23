@@ -6,4 +6,5 @@ try:
 except Exception as ex:
     print(ex.args)
 else:
-    print(database_instance.get_market_scan(10))
+    #print(database_instance.get_market_scan(10))
+    print(database_instance.migrate_data(2))

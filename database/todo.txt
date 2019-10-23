@@ -3,3 +3,6 @@
 2. method in this class will return x number of data from database
 3. Create a new exception type ( custom exception)
 4. How to dispose connection object once done.
+ ,[Status]-Bought Data
+      ,[SubStatus]-Mildly Interested
+      ,[Channel]-Bought Data
