@@ -1,10 +1,12 @@
-terninger = []
-def terning_kast(antal_kast = int(input("Hvor mange terningekast? "))):
-    for x in range(antal_kast, 0, -1):
-        resultat = random.randint(1, 6)
-        terninger.append(resultat)
-    return resultat
+l1 = [{'id':1,'name':'a'},{'id':2,'name':'c'}]
+l2 = [{'id':4,'name':'d'},{'id':6,'name':'a'}]
+for x in l1:
+    print(x["name"])
 
-print('before', terninger)
-terning_kast() # this is the line which you have missed
-print('after', terninger)
+z= len(
+    set.intersection(
+        {x["name"] for x in l1},
+        {x["name"] for x in l2},
+    )
+) > 0
+print(z)
