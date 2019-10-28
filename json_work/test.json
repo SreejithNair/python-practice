@@ -1,0 +1,69 @@
+[
+    {
+      "UserDefinedValueID": 872,
+      "UserDefinedFieldID": 56,
+      "ParentID": 355,
+      "Name": "PDM_Application",
+      "Value": "763",
+      "UpdateDate": "2019-10-27T14:29:18",
+      "FieldType": "File",
+      "Attachment": {
+        "FileID": 763,
+        "Name": "03981-00117",
+        "Description": "",
+        "IsDepotUsed": true,
+        "Path": "201910\\03981-00117.pdf",
+        "Extension": ".pdf",
+        "CreateDate": "2019-10-16T09:13:32",
+        "UpdateDate": "2019-10-27T14:29:18",
+        "CreateUserID": 1,
+        "UpdateUserID": 1
+      },
+      "UpdateUserID": 1,
+      "CreateUserID": 1  },
+    {
+      "UserDefinedValueID": 873,
+      "UserDefinedFieldID": 57,
+      "ParentID": 355,
+      "Name": "PDM_LeaseDoc",
+      "Value": "764",
+      "UpdateDate": "2019-10-16T09:13:33",
+      "FieldType": "File",
+      "Attachment": {
+        "FileID": 764,
+        "Name": "09658-00060_t0007192_Application",
+        "Description": "",
+        "IsDepotUsed": true,
+        "Path": "201910\\09658-00060_t0007192_Application.pdf",
+        "Extension": ".pdf",
+        "CreateDate": "2019-10-16T09:13:33",
+        "UpdateDate": "2019-10-16T09:13:33",
+        "CreateUserID": 1,
+        "UpdateUserID": 1
+      },
+      "UpdateUserID": 1,
+      "CreateUserID": 1  },
+    {
+      "UserDefinedValueID": 875,
+      "UserDefinedFieldID": 59,
+      "ParentID": 355,
+      "Name": "PDM_FAS/SODA",
+      "Value": "765",
+      "UpdateDate": "2019-10-16T09:13:33",
+      "FieldType": "File",
+      "Attachment": {
+        "FileID": 765,
+        "Name": "10489_AParker_T0231056_13",
+        "Description": "",
+        "IsDepotUsed": true,
+        "Path": "201910\\10489_AParker_T0231056_13.pdf",
+        "Extension": ".pdf",
+        "CreateDate": "2019-10-16T09:13:33",
+        "UpdateDate": "2019-10-16T09:13:33",
+        "CreateUserID": 1,
+        "UpdateUserID": 1
+      },
+      "UpdateUserID": 1,
+      "CreateUserID": 1 
+   }
+  ]
