@@ -1,3 +1,6 @@
+import functools as reduce
+
+
 #List compression
 l1 = [1,2,3]
 l2 = [10,9,8]
@@ -109,3 +112,40 @@ print(matrix)
 
 matrix = [[j for j in range(2)] for i in range(2)]
 print(matrix) 
+
+
+# map and filters are covered earlier.
+# following demonstrate reduce function
+
+print(reduce.reduce(lambda x,y: x*y,range(1,6))) #120 . one-liner code puzzle, we combined the two (integer) values by multiplying them (and the result was the factorial function).
+
+#The reduce function iteratively combines two values from an iterable as specified in the first functional argument.
+# In our case, the functional argument is an anonymous (lambda) function that takes two values x and y, combines them, and returns the result.
+
+print(reduce.reduce(lambda x, y: x + [[z for z in range(y)]] , [1, 2, 3, 4], [ ])) 
+#But in this puzzle, our two values x and y have a different data type. 
+# The third argument of the reduce function specifies the initial value of x. You can see that the initial value of x is an empty list.
+
+'''
+However, value y still takes on each integer value of the list to be reduced (i.e., the second argument of the reduce function). So, we have y=1, y=2, y=3, and y=4.
+Now, we repeatedly merge value y into the list x. Basically, we create a new list using list comprehension. The new list consists of all integer values up to y (exclusive).
+This new list is then added to the old list (which was initially empty and is growing steadily).
+Here is the exact procedure for each integer y in the list to be reduced:
+(the right-hand side shows you how the new list is merged into the old list in each reduce step.)
+y=1: [] + [[0]] = [[0]]
+y=2: [[0]] + [[0,1]] = [[0], [0,1]]
+y=3: [[0], [0,1]] + [[0,1,2]] = [[0], [0,1], [0,1,2]] 
+y=4: [[0], [0,1], [0,1,2]] + [[0,1,2,3]] = [[0], [0,1], [0,1,2], [0,1,2,3]]
+
+'''
+print(reduce.reduce(lambda x, y: x + [[z for z in range(y)]] , [1, 2, 3, 4], [ ])) 
+
+
+#do it your self
+print(reduce.reduce(lambda x,y: x|{y}, [1, 1, 1, 1, 2, 3, 4], {0}))  #{0, 1, 2, 3, 4}
+# {0}|{1}
+# {0}|{1}|{1}}
+# {0}|{1}|{1}}|{1}
+# {0}|{1}|{1}}|{1}|{1}
+x = {0}|{1}|{1}|{1}|{1}|{2}
+print(x)
