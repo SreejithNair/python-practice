@@ -5,6 +5,21 @@ https://www.python-course.eu/python3_course.php
 https://sopython.com/wiki/What_tutorial_should_I_read%3F
 https://realpython.com/learning-paths/
 
+google ai blog : https://ai.googleblog.com/search/label/ ( drop label to choose from)
+data science blog : https://towardsdatascience.com/machine-learning/home
+
+problem/ lesson learned while doing ML: https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf
+
+reading :https://psychstat3.missouristate.edu/
+ML-Amazon-https://www.aws.training/Details/eLearning?id=26597
+
+Data science central: https://www.datasciencecentral.com/profiles/blogs/40-tutorials-covering-all-aspects-of-machine-learning
+
+Google AI education: https://ai.google/education/
+
+ML Map : https://scikit-learn.org/stable/tutorial/machine_learning_map/
+
+
 Data science use cases:
 
 Data-science use cases

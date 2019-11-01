@@ -1,0 +1,654 @@
+<QuickQuote>
+	<Lenders>
+		<Lender Abbreviation="FSTS" FullName="FS" Description="FS" Address="TBC" Telephone="0800 111 1111" Website="www.tle.com" >
+			<Loan MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="50000" Tier="1" BaseRate="0.5" Navs="-1" NavFour="-1" AdvCount="99" />
+			<Default>
+				<BrokerFees>
+					<Fees>
+						<Range Percentage="10" MaxFee="0" MaxLoan="29950"/>
+						<Range Percentage="0" MaxFee="2995" MaxLoan="2500000"/>
+					</Fees>
+				</BrokerFees>
+				<LenderFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="495" MaxLoan="10000" />
+						<Range Percentage="0" MaxFee="995" MaxLoan="50000" />
+					</Fees>
+				</LenderFees>
+				<TelegraphicTransferFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</TelegraphicTransferFees>
+				<DischargeFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</DischargeFee>
+				<ApplicationFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</ApplicationFee>
+			</Default>
+			<WebsiteB2B>
+				<BrokerFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</BrokerFees>
+				<LenderFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="495" MaxLoan="10000" />
+						<Range Percentage="0" MaxFee="995" MaxLoan="50000" />
+					</Fees>
+				</LenderFees>
+				<TelegraphicTransferFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</TelegraphicTransferFees>
+				<DischargeFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</DischargeFee>
+				<ApplicationFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</ApplicationFee>
+			</WebsiteB2B>
+			<BFEE>
+				<BrokerFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</BrokerFees>
+				<LenderFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="495" MaxLoan="10000" />
+						<Range Percentage="0" MaxFee="995" MaxLoan="50000" />
+					</Fees>
+				</LenderFees>
+				<TelegraphicTransferFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="9999999" />
+					</Fees>
+				</TelegraphicTransferFees>
+				<DischargeFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="9999999" />
+					</Fees>
+				</DischargeFee>
+				<ApplicationFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="9999999" />
+					</Fees>
+				</ApplicationFee>
+			</BFEE>
+			<LenderNotes>
+				<Section Name="Lender Notes">
+					<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+					<N>5 year Fixed Rates available</N>
+					<N>Upto 125% LTV available</N>
+					<N>CBTL properties accepted</N>
+					<N>Lend in England, Scotland, Wales &amp; NI</N>
+					<N>Affordability based on I&amp;E</N>
+					<N>Age 21 yrs-70 yrs at end of loan</N>
+					<N>Discharged Bankruptcies accepted</N>
+					<N>Adverse is considered as part of the lender score</N>
+				</Section>
+			</LenderNotes>
+			<Plans>
+				<Plan PlanName="Variable 95%" Type="Variable" MinLtv="0" MaxLtv="95" FixedTerm="0" InitialRate="9.00" RevisionRate="0" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="50000" MinVal="20000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Variable</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 9.00% pa</N>
+							<N>Max LTV: 95%</N>
+							<N>Loans available up to £50k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Variable 100%" Type="Variable" MinLtv="95" MaxLtv="100" FixedTerm="0" InitialRate="11.50" RevisionRate="0" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="35000" MinVal="20000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Variable</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 11.50% pa</N>
+							<N>Max LTV: 100%</N>
+							<N>Loans available up to £35k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Variable 125%" Type="Variable" MinLtv="100" MaxLtv="125" FixedTerm="0" InitialRate="16.50" RevisionRate="0" MinTerm="1" MaxTerm="15" MinLoan="20000" MaxLoan="25000" MinVal="20000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Variable</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 16.50% pa</N>
+							<N>Max LTV: 125%</N>
+							<N>Loans available up to £25k</N>
+							<N>Terms: 1-15 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Fixed 95%" Type="Fixed" MinLtv="0" MaxLtv="95" FixedTerm="60" InitialRate="9.00" RevisionRate="9.00" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="50000" MinVal="20000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 9.00% pa</N>
+							<N>Follow on Rate: same as initial</N>
+							<N>Max LTV: 95%</N>
+							<N>Loans available up to £50k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Fixed 100%" Type="Fixed" MinLtv="95" MaxLtv="100" FixedTerm="60" InitialRate="11.50" RevisionRate="11.50" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="35000" MinVal="20000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 11.50% pa</N>
+							<N>Follow on Rate: same as initial</N>
+							<N>Max LTV: 100%</N>
+							<N>Loans available up to £35k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Fixed 125%" Type="Fixed" MinLtv="100" MaxLtv="125" FixedTerm="60" InitialRate="16.50" RevisionRate="16.50" MinTerm="1" MaxTerm="15" MinLoan="20000" MaxLoan="25000" MinVal="20000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 16.50% pa</N>
+							<N>Follow on Rate: same as initial</N>
+							<N>Max LTV: 125%</N>
+							<N>Loans available up to £25k</N>
+							<N>Terms: 1-15 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Variable 95%" Type="Variable" MinLtv="0" MaxLtv="95" FixedTerm="0" InitialRate="9.00" RevisionRate="0" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="35000" MinVal="20000" ResType="CBTL" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Variable</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 9.00% pa</N>
+							<N>Max LTV: 95%</N>
+							<N>Loans available up to £35k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Variable 100%" Type="Variable" MinLtv="95" MaxLtv="100" FixedTerm="0" InitialRate="11.50" RevisionRate="0" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="35000" MinVal="20000" ResType="CBTL" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Variable</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 11.50% pa</N>
+							<N>Max LTV: 100%</N>
+							<N>Loans available up to £35k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Variable 125%" Type="Variable" MinLtv="100" MaxLtv="125" FixedTerm="0" InitialRate="16.50" RevisionRate="0" MinTerm="1" MaxTerm="15" MinLoan="20000" MaxLoan="25000" MinVal="20000" ResType="CBTL" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Variable</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 16.50% pa</N>
+							<N>Max LTV: 125%</N>
+							<N>Loans available up to £25k</N>
+							<N>Terms: 1-15 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Fixed 95%" Type="Fixed" MinLtv="0" MaxLtv="95" FixedTerm="60" InitialRate="9.00" RevisionRate="9.00" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="35000" MinVal="20000" ResType="CBTL" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 9.00% pa</N>
+							<N>Follow on Rate: same as initial</N>
+							<N>Max LTV: 95%</N>
+							<N>Loans available up to £35k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Fixed 100%" Type="Fixed" MinLtv="95" MaxLtv="100" FixedTerm="60" InitialRate="11.50" RevisionRate="11.50" MinTerm="1" MaxTerm="20" MinLoan="20000" MaxLoan="35000" MinVal="20000" ResType="CBTL" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 11.50% pa</N>
+							<N>Follow on Rate: same as initial</N>
+							<N>Max LTV: 100%</N>
+							<N>Loans available up to £35k</N>
+							<N>Terms: 1-20 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Fixed 125%" Type="Fixed" MinLtv="100" MaxLtv="125" FixedTerm="60" InitialRate="16.50" RevisionRate="16.50" MinTerm="1" MaxTerm="15" MinLoan="20000" MaxLoan="25000" MinVal="20000" ResType="CBTL" Navs="-1" NavFour="-1" AdvCount="99">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: FS</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Initial Rates from: 16.50% pa</N>
+							<N>Follow on Rate: same as initial</N>
+							<N>Max LTV: 125%</N>
+							<N>Loans available up to £25k</N>
+							<N>Terms: 1-15 years</N>
+							<N>Product Fee: £995</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>ERCs: 2mths interest</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+			</Plans>
+		</Lender>
+		<Lender Abbreviation="OPCR" FullName="OPS" Description="OPS" Address="TBC" Telephone="0800 111 1111" Website="www.tle.com" >
+			<Loan MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" Tier="1" BaseRate="0.5" Navs="-1" NavFour="-1" AdvCount="2" />
+			<Default>
+				<BrokerFees>
+					<Fees>
+						<Range Percentage="10" MaxFee="0" MaxLoan="29950"/>
+						<Range Percentage="0" MaxFee="2995" MaxLoan="2500000"/>
+					</Fees>
+				</BrokerFees>
+				<LenderFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="595" MaxLoan="200000" />
+						<Range Percentage="0" MaxFee="1295" MaxLoan="350000" />
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</LenderFees>
+				<TelegraphicTransferFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</TelegraphicTransferFees>
+				<DischargeFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="95" MaxLoan="2500000" />
+					</Fees>
+				</DischargeFee>
+				<ApplicationFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</ApplicationFee>
+			</Default>
+			<WebsiteB2B>
+				<BrokerFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</BrokerFees>
+				<LenderFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="595" MaxLoan="200000" />
+						<Range Percentage="0" MaxFee="1295" MaxLoan="350000" />
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</LenderFees>
+				<TelegraphicTransferFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</TelegraphicTransferFees>
+				<DischargeFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="95" MaxLoan="2500000" />
+					</Fees>
+				</DischargeFee>
+				<ApplicationFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="2500000" />
+					</Fees>
+				</ApplicationFee>
+			</WebsiteB2B>
+			<BFEE>
+				<BrokerFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</BrokerFees>
+				<LenderFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="595" MaxLoan="200000" />
+						<Range Percentage="0" MaxFee="1295" MaxLoan="350000" />
+						<Range Percentage="0" MaxFee="1995" MaxLoan="2500000" />
+					</Fees>
+				</LenderFees>
+				<TelegraphicTransferFees>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="9999999" />
+					</Fees>
+				</TelegraphicTransferFees>
+				<DischargeFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="95" MaxLoan="9999999" />
+					</Fees>
+				</DischargeFee>
+				<ApplicationFee>
+					<Fees>
+						<Range Percentage="0" MaxFee="0" MaxLoan="9999999" />
+					</Fees>
+				</ApplicationFee>
+			</BFEE>
+			<LenderNotes>
+				<Section Name="Lender Notes">
+					<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+					<N>2,3,4 &amp; 5 year Fixed Rates available</N>
+					<N>Discounted and Interest Only products available</N>
+					<N>Upto 100% LTV available</N>
+					<N>BTL properties NOT accepted</N>
+					<N>Lend in England, Scotland &amp; Wales</N>
+					<N>Affordability based on I&amp;E</N>
+					<N>Age 21 yrs-70 yrs at end of loan</N>
+					<N>Discharged Bankruptcies accepted</N>
+					<N>Adverse is considered as part of the lender score</N>
+				</Section>
+			</LenderNotes>
+			<Plans>
+			<Plan PlanName="Plan Variable" Type="Variable" MinLtv="0" MaxLtv="65" FixedTerm="0" InitialRate="3.82" RevisionRate="0" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: Variable</N>
+							<N>Initial Rates from: 3.82% pa</N>
+							<N>Max LTV: 65%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: None</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Variable" Type="Variable" MinLtv="65" MaxLtv="80" FixedTerm="0" InitialRate="5.65" RevisionRate="0" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: Variable</N>
+							<N>Initial Rates from: 5.65% pa</N>
+							<N>Max LTV: 80%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: None</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Variable" Type="Variable" MinLtv="80" MaxLtv="85" FixedTerm="0" InitialRate="6.30" RevisionRate="0" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: Variable</N>
+							<N>Initial Rates from: 6.30% pa</N>
+							<N>Max LTV: 85%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: None</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Variable" Type="Variable" MinLtv="85" MaxLtv="100" FixedTerm="0" InitialRate="7.39" RevisionRate="0" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="100000" MinVal="85000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: Variable</N>
+							<N>Initial Rates from: 7.39% pa</N>
+							<N>Max LTV: 100%</N>
+							<N>Loans available up to £100k</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: None</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan 1yr Discounted Variable" Type="2TierTracker" MinLtv="0" MaxLtv="65" FixedTerm="12" InitialRate="2.90" RevisionRate="4.50" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: 1yr Discounted Variable</N>
+							<N>Initial Discounted Rates from: 2.90% pa</N>
+							<N>Max LTV: 65%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: Discount on rate</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan 1yr Discounted Variable" Type="2TierTracker" MinLtv="65" MaxLtv="80" FixedTerm="12" InitialRate="3.21" RevisionRate="5.03" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: 1yr Discounted Variable</N>
+							<N>Initial Discounted Rates from: 3.21% pa</N>
+							<N>Max LTV: 80%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: Discount on rate</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan 1yr Discounted Variable" Type="2TierTracker" MinLtv="80" MaxLtv="85" FixedTerm="12" InitialRate="4.80" RevisionRate="6.65" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: 1yr Discounted Variable</N>
+							<N>Initial Discounted Rates from: 4.80% pa</N>
+							<N>Max LTV: 85%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs: Discount on rate</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan 5yr Discounted Variable" Type="2TierTracker" MinLtv="0" MaxLtv="65" FixedTerm="60" InitialRate="3.50" RevisionRate="4.60" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: 5yr Discounted Variable</N>
+							<N>Initial Discounted Rates from: 3.50% pa</N>
+							<N>Max LTV: 65%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan 5yr Discounted Variable" Type="2TierTracker" MinLtv="65" MaxLtv="80" FixedTerm="60" InitialRate="4.53" RevisionRate="5.73" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: 5yr Discounted Variable</N>
+							<N>Initial Discounted Rates from: 4.53% pa</N>
+							<N>Max LTV: 80%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan 5yr Discounted Variable" Type="2TierTracker" MinLtv="80" MaxLtv="85" FixedTerm="60" InitialRate="5.60" RevisionRate="6.65" MinTerm="3" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Plan Name: 5yr Discounted Variable</N>
+							<N>Initial Discounted Rates from: 5.60% pa</N>
+							<N>Max LTV: 85%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Fixed" Type="Fixed" MinLtv="0" MaxLtv="65" FixedTerm="60" InitialRate="3.46" RevisionRate="4.26" MinTerm="5" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>Initial Fixed Rates from: 3.46% pa</N>
+							<N>Max LTV: 65%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+							<N>Products with no ERCs available</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Fixed" Type="Fixed" MinLtv="65" MaxLtv="80" FixedTerm="60" InitialRate="3.91" RevisionRate="4.31" MinTerm="5" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>Initial Fixed Rates from: 3.91% pa</N>
+							<N>Max LTV: 80%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+							<N>Products with no ERCs available</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Fixed" Type="Fixed" MinLtv="80" MaxLtv="85" FixedTerm="60" InitialRate="5.59" RevisionRate="6.30" MinTerm="5" MaxTerm="35" MinLoan="20000" MaxLoan="2500000" MinVal="75000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>Initial Fixed Rates from: 5.59% pa</N>
+							<N>Max LTV: 85%</N>
+							<N>Loans available up to £2.5m</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+							<N>Products with no ERCs available</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+				<Plan PlanName="Plan Fixed" Type="Fixed" MinLtv="85" MaxLtv="100" FixedTerm="60" InitialRate="6.99" RevisionRate="7.39" MinTerm="5" MaxTerm="35" MinLoan="20000" MaxLoan="100000" MinVal="85000" ResType="Res" Navs="-1" NavFour="-1" AdvCount="0">
+					<PlanNotes>
+						<Section Name="Plan Information">
+							<N>Lender: OPS</N>
+							<N>ALL RATES SUBJECT TO LENDER SCORE</N>
+							<N>Rate Type: Fixed for 5 years</N>
+							<N>Initial Fixed Rates from: 6.99% pa</N>
+							<N>Max LTV: 100%</N>
+							<N>Loans available up to £100k</N>
+							<N>Terms: 3-30 years</N>
+							<N>Product Fee: £595</N>
+							<N>Adverse Units: Considered in score</N>
+							<N>Discharge Fee: £95</N>
+							<N>ERCs:5%,5%,4%,3%,2%</N>
+							<N>Products with no ERCs available</N>
+						</Section>
+					</PlanNotes>
+				</Plan>
+			</Plans>
+		</Lender>		
+	</Lenders>
+</QuickQuote>
