@@ -19,9 +19,9 @@ async def main():
     ## Options:
 
     # 1. Run in the default loop's executor:
-    result = await loop.run_in_executor(
-        None, blocking_io)
-    print('default thread pool', result)
+result = await loop.run_in_executor(
+    None, blocking_io)
+print('default thread pool', result)
 
     # 2. Run in a custom thread pool:
     with concurrent.futures.ThreadPoolExecutor() as pool:
