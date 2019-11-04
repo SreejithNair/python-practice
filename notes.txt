@@ -19,6 +19,9 @@ Google AI education: https://ai.google/education/
 
 ML Map : https://scikit-learn.org/stable/tutorial/machine_learning_map/
 
+AWS ML training : https://www.aws.training/Details/eLearning?id=26597
+https://aws.amazon.com/training/learning-paths/machine-learning/data-scientist/
+
 
 Data science use cases:
 
