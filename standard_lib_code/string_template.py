@@ -1,3 +1,4 @@
+#end_pymotw_header
 import string
 
 values = {'var': 'foo'}

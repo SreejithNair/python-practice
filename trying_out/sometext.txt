@@ -1,0 +1,1 @@
+hostname : WGNAIOP fsystem : /dev/sdb actual_size : 2.5T used_disk : 609G avail_disk : 1.7T percentage : 26% mount_disk : /data
