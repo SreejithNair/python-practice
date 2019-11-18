@@ -1,27 +1,12 @@
-import string
+import datetime
 
-values = {'var': 'foo'}
+today = datetime.date.today()
 
-t = string.Template("""
-Variable        : $var
-Escape          : $$
-Variable in text: ${var}iable
-""")
+previous_weeks = [] # list to store previous weeks
+for a in range(1,27):
+    last_week = today.__add__(datetime.timedelta(days=-7))
+    previous_weeks.append(last_week)
+    today = last_week
 
-print('TEMPLATE:', t.substitute(values))
-
-s = """
-Variable        : %(var)s
-Escape          : %%
-Variable in text: %(var)siable
-"""
-
-print('INTERPOLATION:', s % values)
-
-s = """
-Variable        : {var}
-Escape          : {{}}
-Variable in text: {var}iable
-"""
-
-print('FORMAT:', s.format(**values))
+for i in previous_weeks:
+    print(i)

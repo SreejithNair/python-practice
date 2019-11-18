@@ -10,6 +10,8 @@ data science blog : https://towardsdatascience.com/machine-learning/home
 
 problem/ lesson learned while doing ML: https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf
 
+GREAT PYTHON Books - https://docs.python-guide.org/intro/learning/
+
 reading :https://psychstat3.missouristate.edu/
 ML-Amazon-https://www.aws.training/Details/eLearning?id=26597
 
